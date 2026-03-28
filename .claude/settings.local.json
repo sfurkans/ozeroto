@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.temizoto.com.tr)",
+      "WebFetch(domain:yenidortnal.com.tr)",
+      "Bash(npm create:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm update:*)",
+      "Bash(claude:*)",
+      "Bash(winget upgrade:*)",
+      "Bash(npm run:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://www.linutechnology.com/\" -o /tmp/linu_main.html)",
+      "Read(//tmp/**)",
+      "WebFetch(domain:www.linutechnology.com)",
+      "Bash(curl:*)",
+      "Bash(grep -iE '\\(label:|children:\\)[^}]{3,60}')",
+      "Bash(grep -oE 'L0=\\\\\\(\\\\\\)=>[^;]{1,3000}')",
+      "Bash(grep -oE 'L0=\\\\\\(\\\\\\)=>[^;]{3000,6000}')",
+      "Bash(grep -oE 'hm=\\\\[[^]]{1,3000}\\\\]')",
+      "Bash(git -C /c/oto-elektrik status)",
+      "Bash(git -C \"C:/oto-elektrik\" rev-parse --git-dir)",
+      "Bash(find /c/oto-elektrik -name tailwind.config.* -o -name tailwind.config.js)",
+      "Bash(node -e \":*)",
+      "Bash(mkdir -p $TEMP/unsplash_search)",
+      "Read(//c/oto-elektrik/$TEMP/**)",
+      "Bash(node:*)",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:api.unsplash.com)",
+      "WebSearch",
+      "WebFetch(domain:celalituning.com)",
+      "WebFetch(domain:www.aksoytuning.com)",
+      "WebFetch(domain:www.pexels.com)",
+      "WebFetch(domain:for-x.com.tr)",
+      "WebFetch(domain:www.photononline.net)",
+      "WebFetch(domain:fardoktoru.com)",
+      "WebFetch(domain:races-shop.com)",
+      "Bash(npm list:*)"
+    ]
+  }
+}
