@@ -36,7 +36,8 @@
       "WebFetch(domain:www.photononline.net)",
       "WebFetch(domain:fardoktoru.com)",
       "WebFetch(domain:races-shop.com)",
-      "Bash(npm list:*)"
+      "Bash(npm list:*)",
+      "Bash(xargs wc:*)"
     ]
   }
 }
